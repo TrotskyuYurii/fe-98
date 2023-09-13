@@ -4,62 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CHocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+        integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
         <!-- logo + menu -->
-        <nav>
-            <a href="">
-                SIMPLY CHOCOLATE <img src="./images/logo.svg" alt="site logo">
+        <nav class="header-naviagation">
+            <a href="" class="header-logo link">
+                <span class="header-logo-italic">SIMPLY</span> CHOCOLATE <img src="./images/logo.svg" alt="site logo">
             </a>
 
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#mode">How it’s made?</a></li>
-                <li><a href="#loved">Chocolate is loved</a></li>
+            <ul class="header-menu" class="header-list">
+                <li class="header-menu-item"><a class="header-munu-link" href="">Home</a></li>
+                <li class="header-menu-item"><a class="header-munu-link" href="#mode">How it’s made?</a></li>
+                <li class="header-menu-item"><a class="header-munu-link" href="#loved">Chocolate is loved</a></li>
             </ul>
         </nav>
 
+
         <!-- social -->
-        <ul>
-            <li><a href="" target="_blank" rel="noopener noreferrer">Insta</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer">Fb</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer">Twit</a></li>
+        <ul class="header-ssoc">
+            <li class="header-soc-item"><a class="header-soc-link" target="_blank" rel="noopener noreferrer">Insta</a>
+            </li>
+            <li class="header-soc-item"><a class="header-soc-link" target="_blank" rel="noopener noreferrer">Fb</a></li>
+            <li class="header-soc-item"><a class="header-soc-link" target="_blank" rel="noopener noreferrer">Twit</a>
+            </li>
         </ul>
     </header>
 
     <main>
 
         <!-- page 1 -->
-        <section>
-            <h1>Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
-            <button type="button">Buy now</button>
-            <a href="#made">How it’s made</a>
-            <a href="#footer">scroll down</a>
+        <section class="hero">
+            <h1 class="hero-title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!
+            </h1>
+            <button class="hero-bye-btn" type="button">Buy now</button>
+            <a class="hero-anchor-btn" href="#made">How it’s made</a>
+            <a class="hero-bottom-btn" href="#footer">scroll down</a>
         </section>
 
         <!-- page 2 -->
-        <section>
-            <h2 hidden>features</h2>
-            <ul>
-                <li>
-                    <h3>Unsurpassed taste</h3>
-                    <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a
+        <section class="features">
+            <h2 class="visually-hidden">Features</h2>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="features-subtitile">Unsurpassed taste</h3>
+                    <p class="feautures-item-text">Crafted with the finest quality cocoa beans and a dedication to
+                        perfection, each bite is a
                         decadent experience that simply cannot be matched. Savor the richness and complexity of our
                         Unsurpassed Taste and discover a new level of chocolate bliss.</p>
                 </li>
-                <li>
-                    <h3>Affordable price</h3>
-                    <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a
+                <li class="features-item">
+                    <h3 class="features-subtitile">Affordable price</h3>
+                    <p class="feautures-item-text">Crafted with the finest quality cocoa beans and a dedication to
+                        perfection, each bite is a
                         decadent experience that simply cannot be matched. Savor the richness and complexity of our
                         Unsurpassed Taste and discover a new level of chocolate bliss.</p>
                 </li>
-                <li>
-                    <h3>Own production</h3>
-                    <p>We take pride in our own production process, ensuring that every step is carefully crafted to
+                <li class="features-item">
+                    <h3 class="features-subtitile">Own production</h3>
+                    <p class="feautures-item-text">We take pride in our own production process, ensuring that every step
+                        is carefully crafted to
                         perfection. From selecting the finest ingredients to handcrafting each piece, our attention to
                         detail is evident in every bite.</p>
                 </li>
@@ -210,17 +226,20 @@
                 <li>
                     <img src="./images/loved-1.jpg" alt="Victoria Dobrzhanska" width="80" height="80">
                     <h3>Victoria Dobrzhanska</h3>
-                    <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p>
+                    <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer
+                        chocolate.</p>
                 </li>
                 <li>
                     <img src="./images/loved-2.jpg" alt="Nazar Babenko" width="80" height="80">
                     <h3>Nazar Babenko</h3>
-                    <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.</p>
+                    <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut
+                        cream is smooth, and the chocolate is good.</p>
                 </li>
                 <li>
                     <img src="./images/loved-3.jpg" alt="Olena Kampusch" width="80" height="80">
                     <h3>Olena Kampusch</h3>
-                    <p>Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.</p>
+                    <p>Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess
+                        inside. The wafer is soft but crunchy.</p>
                 </li>
             </ul>
             <button type="button">Leave a review</button>

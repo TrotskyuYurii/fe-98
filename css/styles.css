@@ -1,0 +1,68 @@
+/* 
+@font-face {
+    font-family: my-name-font;
+    src: url(../fonts/Montserrat-Regular.ttf);
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+  list-style: 0; 
+
+}
+a{
+    text-decoration: none; 
+}
+.list
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .header-logo{
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11
+    letter-spacing: -0.54em;    
+  }
+
+.header {
+}
+.header-naviagation {
+}
+.header-logo {
+}
+.header-logo-italic {
+   font-style: italic; 
+}
+.header-list {
+}
+.header-menu-item {
+}
+.header-munu-link {
+color: #111;
+font-style: normal;
+font-weight: 500;
+line-height: 1,14; 
+letter-spacing: -0.02em;
+
+}
+.header-ssoc {
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
